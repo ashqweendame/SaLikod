@@ -1,0 +1,142 @@
+:root {
+  --primary-color: #3b441f;
+  --secondary-color: #67941e;
+  --accent: #bed62f;
+  --white: #f4f7f5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  border-bottom: 5px solid var(--accent);
+  color: var(--white);
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-actions {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary-color);
+  background-color: var(--accent);
+  text-align: center;
+}
+
+#menu-toggle,
+.hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 1025px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+    order: 3;
+  }
+
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 32px;
+    padding: 4px 0;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--accent);
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--white);
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 100px 30px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+  }
+
+  .nav-links a {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .nav-actions {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 190px;
+    z-index: 99;
+    transform: translateX(300px);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    transform: translateX(0);
+  }
+
+  #menu-toggle:checked ~ .nav-actions {
+    transform: translateX(0);
+  }
+
+  #menu-toggle:checked ~ .hamburger-icon span:first-child {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  #menu-toggle:checked ~ .hamburger-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #menu-toggle:checked ~ .hamburger-icon span:last-child {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+}
