@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -8 224 216" width="224" height="216" role="img" aria-label="Sa Likod emblem">
+<title>Sa Likod emblem</title>
+<g transform="translate(0 0) scale(1)">
+<defs><clipPath id="clipE"><circle cx="100" cy="100" r="86"/></clipPath></defs>
+<circle cx="100" cy="100" r="98" fill="#3b441f"/>
+<circle cx="100" cy="100" r="90" fill="none" stroke="#bed62f" stroke-width="4"/>
+<g clip-path="url(#clipE)">
+<circle cx="100" cy="86" r="40" fill="#bed62f"/>
+<g fill="#3b441f"><circle cx="100" cy="60" r="4.5"/><circle cx="82" cy="70" r="4.5"/><circle cx="118" cy="70" r="4.5"/><circle cx="72" cy="86" r="4.5"/><circle cx="128" cy="86" r="4.5"/><circle cx="100" cy="82" r="4.5"/><circle cx="90" cy="98" r="4.5"/><circle cx="110" cy="98" r="4.5"/></g>
+<rect x="0" y="108" width="200" height="100" fill="#f4f7f5"/>
+<g stroke="#3b441f" stroke-width="3.5" fill="none"><line x1="0" y1="108" x2="200" y2="108"/><line x1="0" y1="146" x2="200" y2="146"/><line x1="100" y1="146" x2="100" y2="200"/></g>
+</g>
+</g>
+</svg>
