@@ -4,9 +4,16 @@ const sliderNav = document.querySelectorAll(".slider-nav button");
 
 sliderNav.forEach((button, index) => {
   button.addEventListener("click", () => {
+    const currentPagePosition = window.scrollY;
+
     slider.scrollTo({
-      left: slides[index].offsetLeft,
+      left: index * slider.clientWidth,
       behavior: "smooth",
+    });
+
+    window.scrollTo({
+      top: currentPagePosition,
+      behavior: "instant",
     });
   });
 });
