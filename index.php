@@ -51,23 +51,33 @@
 
       <div class="section-divider"></div>
 
-      <section id="events">Events</section>
+      <section id="events">
+        <h1>Events</h1>
+      </section>
 
       <div class="section-divider"></div>
 
-      <section id="howto">How to Book</section>
+      <section id="howto">
+        <h1>How to Book</h1>
+      </section>
 
       <div class="section-divider"></div>
       
-      <section id="about">About</section>
+      <section id="about">
+        <h1>About</h1>
+      </section>
 
       <div class="section-divider"></div>
 
-      <section id="newsletter">Newsletter</section>
+      <section id="newsletter">
+        <h1>Newsletter</h1>
+      </section>
 
       <div class="section-divider"></div>
 
-      <section id="contact">Contact Us</section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+      </section>
     </main>
     
   </body>

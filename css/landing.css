@@ -34,6 +34,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1,
 .heading {
   font-family: var(--font-display);
@@ -71,7 +74,7 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  scroll-behavior: smooth;
+  scroll-margin-top: 63px;
   min-height: 85vh;
   gap: var(--size-heading);
 }

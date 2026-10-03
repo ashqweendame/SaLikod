@@ -9,7 +9,7 @@
     <span></span>
   </label>
   <ul class="nav-links">
-    <li><a href="#home" class="nav-link" onclick="window.scrollTo({top: 0}); return false;">Home</a></li>
+    <li><a href="#home" class="nav-link">Home</a></li>
     <li><a href="#events" class="nav-link">Events</a></li>
     <li><a href="#howto" class="nav-link">How To Book</a></li>
     <li><a href="#about" class="nav-link">About</a></li>
