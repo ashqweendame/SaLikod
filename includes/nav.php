@@ -9,12 +9,12 @@
     <span></span>
   </label>
   <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#events">Events</a></li>
-    <li><a href="#howto">How To Book</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#newsletter">Newsletter</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#home" class="nav-link" onclick="window.scrollTo({top: 0}); return false;">Home</a></li>
+    <li><a href="#events" class="nav-link">Events</a></li>
+    <li><a href="#howto" class="nav-link">How To Book</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
   <div class="nav-actions">
     <a href="booking.php">BOOK A COURT</a>
