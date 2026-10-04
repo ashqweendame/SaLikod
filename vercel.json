@@ -22,6 +22,10 @@
       "dest": "/js/$1"
     },
     {
+      "src": "/booking",
+      "dest": "api/booking.php"
+    },
+    {
       "src": "/(.*)",
       "dest": "api/index.php"
     }
