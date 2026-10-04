@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-logo">
-    <a href="/SaLikod"><img src="assets/sa-likod-svg-v3/sa-likod-lockup-horizontal-on-dark.svg" alt="SALIKOD lockup horizontal on dark logo" height="35"></a>
+    <a href="/SaLikod"><img src="../assets/sa-likod-svg-v3/sa-likod-lockup-horizontal-on-dark.svg" alt="SALIKOD lockup horizontal on dark logo" height="35"></a>
   </div>
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="hamburger-icon">

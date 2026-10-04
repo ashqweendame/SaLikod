@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/landing.css" />
-    <link rel="stylesheet" href="css/nav.css">
-    <script src="js/landing.js" defer></script>
+    <link rel="stylesheet" href="../css/landing.css" />
+    <link rel="stylesheet" href="../css/nav.css">
+    <script src="../js/landing.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   </head>
@@ -20,14 +20,14 @@
       <section id="home">
         <div class="slider-wrapper">
           <div class="slider">
-            <img id="slide-1" src="assets/hero5.jpg" alt="hero5-image">
-            <img id="slide-2" src="assets/hero4.jpg" alt="hero2-image">
-            <img id="slide-3" src="assets/hero3.jpg" alt="hero3-image">
+            <img id="slide-1" src="../assets/hero5.jpg" alt="hero5-imaSge">
+            <img id="slide-2" src="../assets/hero4.jpg" alt="hero2-image">
+            <img id="slide-3" src="../assets/hero3.jpg" alt="hero3-image">
           </div>
 
           <div class="gradient-overlay"></div>
           <div class="hero-content">
-            <a href="/SaLikod"><img src="assets/sa-likod-svg-v3/sa-likod-name-on-dark.svg" alt="SALIKOD name on dark logo"></a>
+            <a href="/SaLikod"><img src="../assets/sa-likod-svg-v3/sa-likod-name-on-dark.svg" alt="SALIKOD name on dark logo"></a>
             <p class="body-text">by ResMarG</p>
             <a href="booking.php" class="book-btn">BOOK A COURT NOW</a>
           </div>
@@ -55,7 +55,7 @@
         <h1 class="section-title">Events</h1>
         <div class="event-container">
           <div class="event-item">
-            <img class="event-image" src="assets/hero2.jpg" alt="Two Pickleball Paddles">
+            <img class="event-image" src="../assets/hero2.jpg" alt="Two Pickleball Paddles">
             <div class="event-details">
               <h2 class="event-title">Open Play</h2>
               <p class="event-description">Only open for 16 slots. Reserve yours now for only 50 pesos.</p>
@@ -65,7 +65,7 @@
             
           </div>
           <div class="event-item">
-            <img class="event-image" src="assets/hero2.jpg" alt="Two Pickleball Paddles">
+            <img class="event-image" src="../assets/hero2.jpg" alt="Two Pickleball Paddles">
             <div class="event-details">
               <h2 class="event-title">Open Play</h2>
               <p class="event-description">Only open for 16 slots. Reserve yours now for only 50 pesos.</p>
