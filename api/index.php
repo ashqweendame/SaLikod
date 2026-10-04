@@ -15,7 +15,7 @@
 
   </head>
   <body>
-    <?php include '/includes/nav.php';?>
+    <?php include __DIR__ . '/../includes/nav.php';?>
     <main>
       <section id="home">
         <div class="slider-wrapper">
