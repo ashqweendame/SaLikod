@@ -6,8 +6,20 @@
   },
   "routes": [
     {
-      "src": "^/$",
-      "dest": "SaLikod/api/index.php"
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api/index.php"
     }
   ]
 }
