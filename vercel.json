@@ -1,13 +1,13 @@
 {
   "functions": {
-    "api/index.php": {
+    "Salikod/api/index.php": {
       "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
     {
       "src": "^/$",
-      "dest": "/api/index.php"
+      "dest": "SaLikod/api/index.php"
     }
   ]
 }
