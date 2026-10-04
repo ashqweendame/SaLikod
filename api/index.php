@@ -51,32 +51,54 @@
 
       <div class="section-divider"></div>
 
-      <section id="events">
-        <h1>Events</h1>
+      <section id="events" class="section-item">
+        <h1 class="section-title">Events</h1>
+        <div class="event-container">
+          <div class="event-item">
+            <img class="event-image" src="assets/hero2.jpg" alt="Two Pickleball Paddles">
+            <div class="event-details">
+              <h2 class="event-title">Open Play</h2>
+              <p class="event-description">Only open for 16 slots. Reserve yours now for only 50 pesos.</p>
+              <p class="event-date"><b>Date:</b> October 6 2026</p>
+              <p class="event-time"><b>Time:</b> 5:00 PM</p>
+            </div>
+            
+          </div>
+          <div class="event-item">
+            <img class="event-image" src="assets/hero2.jpg" alt="Two Pickleball Paddles">
+            <div class="event-details">
+              <h2 class="event-title">Open Play</h2>
+              <p class="event-description">Only open for 16 slots. Reserve yours now for only 50 pesos.</p>
+              <p class="event-date"><b>Date:</b> October 6 2026</p>
+              <p class="event-time"><b>Time:</b> 5:00 PM</p>
+            </div>
+            
+          </div>
+        </div>
       </section>
 
       <div class="section-divider"></div>
 
-      <section id="howto">
-        <h1>How to Book</h1>
+      <section id="howto" class="section-item">
+        <h1 class="section-title">How to Book</h1>
       </section>
 
       <div class="section-divider"></div>
       
-      <section id="about">
-        <h1>About</h1>
+      <section id="about" class="section-item">
+        <h1 class="section-title">About</h1>
       </section>
 
       <div class="section-divider"></div>
 
-      <section id="newsletter">
-        <h1>Newsletter</h1>
+      <section id="newsletter" class="section-item">
+        <h1 class="section-title">Newsletter</h1>
       </section>
 
       <div class="section-divider"></div>
 
-      <section id="contact">
-        <h1>Contact Us</h1>
+      <section id="contact" class="section-item">
+        <h1 class="section-title">Contact Us</h1>
       </section>
     </main>
     

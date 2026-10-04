@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-logo">
-    <a href="/SaLikod"><img src="assets/sa-likod-svg-v3/sa-likod-name-on-dark.svg" alt="SALIKOD name on dark logo" height="35"></a>
+    <a href="/SaLikod"><img src="assets/sa-likod-svg-v3/sa-likod-lockup-horizontal-on-dark.svg" alt="SALIKOD lockup horizontal on dark logo" height="35"></a>
   </div>
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="hamburger-icon">
@@ -16,7 +16,5 @@
     <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
     <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
-  <div class="nav-actions">
-    <a href="booking.php">BOOK A COURT</a>
-  </div>
+  <a href="booking.php"  class="nav-actions">BOOK A COURT</a>
 </nav>

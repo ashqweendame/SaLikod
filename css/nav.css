@@ -38,12 +38,16 @@ nav {
 
 .nav-actions {
   border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
+  padding: 5px 10px;
+  font-size: 14px;
   font-weight: bold;
   color: var(--primary-color);
   background-color: var(--accent);
   text-align: center;
+}
+
+.nav-actions:hover {
+  background-color: var(--white);
 }
 
 #menu-toggle,

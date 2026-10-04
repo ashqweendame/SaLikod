@@ -68,18 +68,17 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  scroll-margin-top: 63px;
-  min-height: 85vh;
+  scroll-margin-top: 90px;
   gap: var(--size-heading);
 }
 
 .section-divider {
+  align-self: center;
   margin: 20px 0px;
   width: 70%;
   height: 1px;
@@ -213,6 +212,43 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+/* ------SECTION ITEMS CSS------- */
+.section-item {
+  padding: 0px 50px;
+}
+.section-title {
+  align-self: center;
+}
+/* ------EVENTS SECTION CSS------ */
+
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.event-item {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
+.event-image {
+  width: 20%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+.event-description {
+  opacity: 0.8;
+}
+
+/* ------MEDIA QUERIES------ */
 
 @media (max-width: 1025px) {
   .slider {
