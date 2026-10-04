@@ -7,7 +7,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/SaLikod/api/index.php"
+      "dest": "api/index.php"
     }
   ]
 }
