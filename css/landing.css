@@ -254,10 +254,16 @@ section {
   .slider {
     aspect-ratio: 16/7;
   }
+  .event-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
   .slider {
     aspect-ratio: 16/10;
+  }
+  .event-container {
+    grid-template-columns: 1fr;
   }
 }
