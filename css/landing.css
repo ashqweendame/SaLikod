@@ -238,7 +238,7 @@ section {
 .event-item {
   background-color: var(--white);
   color: var(--primary-color);
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -263,10 +263,24 @@ section {
   .event-container {
     grid-template-columns: 1fr;
   }
+  .slider {
+    aspect-ratio: 16/7;
+  }
 }
 
 @media (max-width: 768px) {
   .event-container {
     grid-template-columns: 1fr;
+  }
+  .slider {
+    aspect-ratio: 1/1;
+  }
+  .event-item {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .event-image {
+    width: 100%;
+    height: clamp(125px, 125px, 125px);
   }
 }
