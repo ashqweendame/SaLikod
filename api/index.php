@@ -75,6 +75,7 @@
             
           </div>
         </div>
+        <a class="event-more">More Events</a>
       </section>
 
       <div class="section-divider"></div>

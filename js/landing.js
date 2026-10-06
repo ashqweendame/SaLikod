@@ -4,7 +4,7 @@ const sliderNav = document.querySelectorAll(".slider-nav button");
 
 let currentIndex = 0;
 let autoSlideInterval;
-const slideDelay = 3500;
+const slideDelay = 5000;
 
 function goToSlide(index) {
   currentIndex = index;
