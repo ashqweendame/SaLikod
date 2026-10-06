@@ -291,7 +291,7 @@ section {
   .event-details {
     padding: 0px 10px;
   }
-  h2 {
+  .home-details {
     font-size: clamp(1.5rem, 3vw, 1.75rem);
   }
 }
