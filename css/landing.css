@@ -10,6 +10,7 @@
 
   --size-heading: clamp(2.25rem, 5vw, 3.5rem);
   --size-subheading: clamp(1.25rem, 3vw, 1.75rem);
+  --size-h3: clamp(1.1rem, 2vw, 1.35rem);
   --size-body: 1rem;
   --size-nav: 0.95rem;
   --size-button: 0.9rem;
@@ -50,6 +51,13 @@ h2,
 .subheading {
   font-family: var(--font-body);
   font-size: var(--size-subheading);
+  font-weight: var(--weight-bold);
+  line-height: var(--lh-medium);
+  letter-spacing: var(--ls-tight);
+}
+h3 {
+  font-family: var(--font-body);
+  font-size: var(--size-h3);
   font-weight: var(--weight-bold);
   line-height: var(--lh-medium);
   letter-spacing: var(--ls-tight);
@@ -222,8 +230,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  padding: 0px 50px;
+  align-self: center;
+  width: 80%;
 }
 .section-title {
   align-self: center;
@@ -242,20 +250,25 @@ section {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  gap: clamp(10px, 10px, 20px);
   overflow: hidden;
 }
 .event-details {
-  padding: 10px 0px;
+  padding: 10px;
+  min-width: 0;
 }
 .event-image {
-  width: clamp(125px, 125px, 125px);
+  width: clamp(100px, 100%, 125px);
   aspect-ratio: 1/1;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
 }
 .event-description {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
   opacity: 0.8;
 }
 
@@ -280,6 +293,17 @@ section {
   text-transform: uppercase;
 }
 
+/* ------ABOUT SECTION CSS-----*/
+.about-meta-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(2.25rem, 5vw, 3.5rem);
+}
+.about-meta {
+  flex: 1;
+  text-align: justify;
+  text-indent: 2em;
+}
 /* ------MEDIA QUERIES------ */
 
 @media (max-width: 1025px) {
@@ -311,8 +335,12 @@ section {
   }
   .event-details {
     padding: 0px 10px;
+    width: 100%;
   }
   .home-details h2 {
     font-size: clamp(0.9rem, 2.4vw, 1.15rem);
+  }
+  .about-meta {
+    flex: initial;
   }
 }

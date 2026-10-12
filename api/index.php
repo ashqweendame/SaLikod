@@ -44,7 +44,7 @@
           </div>
           <div class="time-detail">
             <i class="bi bi-clock-fill"></i>
-            <h2>5:00 PM - 11:00 PM</h2>
+            <h2>5:00 PM - 11:00 PM (Daily)</h2>
           </div>
         </div>
       </section>
@@ -85,15 +85,15 @@
         <div class="how-to-container">
           <div class="how-to-item">
             <img src="../assets/pickadate.png" alt="pay how to book image">
-            <h2 class="how-to-title">Pick a Date</h2>
+            <h3 class="how-to-title">Pick a Date</h3>
           </div>
           <div class="how-to-item">
             <img src="../assets/pay.png" alt="pay how to book image">
-            <h2 class="how-to-title">Pay</h2>
+            <h3 class="how-to-title">Pay</h3>
           </div>
           <div class="how-to-item">
             <img src="../assets/play.png" alt="pay how to book image">
-            <h2 class="how-to-title">Play</h2>
+            <h3 class="how-to-title">Play</h3>
           </div>
         </div>
       </section>
@@ -102,6 +102,21 @@
       
       <section id="about" class="section-item">
         <h1 class="section-title">About</h1>
+        
+        <div class="about-meta-container">
+          <div class="about-meta">
+            <p><strong>SaLikod Pickleball Courts</strong>, established by <strong>ResMarG</strong>, brings the passion and energy of pickleball straight to Dalaguete! 
+            </p>
+            <p>True to our name, you can find our facility tucked away <strong>right behind Dalaguete Central Elementary School</strong>. We offer a vibrant, welcoming environment where local players of all skill levels can connect, exercise, and have fun.
+            </p>
+          </div>
+
+          <div class="about-meta">
+            <h3>Why Play Here?</h3>
+            
+          </div>
+        </div>
+        
       </section>
 
       <div class="section-divider"></div>
