@@ -82,6 +82,20 @@
 
       <section id="howto" class="section-item">
         <h1 class="section-title">How to Book</h1>
+        <div class="how-to-container">
+          <div class="how-to-item">
+            <img src="../assets/pickadate.png" alt="pay how to book image">
+            <h2 class="how-to-title">Pick a Date</h2>
+          </div>
+          <div class="how-to-item">
+            <img src="../assets/pay.png" alt="pay how to book image">
+            <h2 class="how-to-title">Pay</h2>
+          </div>
+          <div class="how-to-item">
+            <img src="../assets/play.png" alt="pay how to book image">
+            <h2 class="how-to-title">Play</h2>
+          </div>
+        </div>
       </section>
 
       <div class="section-divider"></div>
